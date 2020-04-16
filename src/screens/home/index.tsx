@@ -1,13 +1,13 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text } from 'react-native';
 
-import * as routes from '../../navigation/routes';
+import { Button } from '../../components';
 
 export const Home: React.FC = ({ navigation }) => {
   return (
     <View>
       <Text>Home screen</Text>
-      <Button onPress={() => navigation.push(routes.CART)} title="Click me" />
+      <Button />
     </View>
   );
 };
