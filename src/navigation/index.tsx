@@ -24,7 +24,7 @@ const AuthStackScreen = () => (
 
 export default () => (
   <NavigationContainer>
-    <RootStackScreen />
-    {/* <AuthStackScreen /> */}
+    {/* <RootStackScreen /> */}
+    <AuthStackScreen />
   </NavigationContainer>
 );
