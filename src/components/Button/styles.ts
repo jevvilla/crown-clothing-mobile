@@ -18,6 +18,7 @@ export default StyleSheet.create({
     letterSpacing: 1,
     textTransform: 'uppercase',
     fontSize: 16,
+    fontFamily: 'OpenSansCondensed-Bold',
     color: 'white',
   },
 });
