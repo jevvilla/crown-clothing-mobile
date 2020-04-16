@@ -5,7 +5,6 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     minWidth: 200,
-    width: '75%',
     paddingHorizontal: 30,
     height: 70,
     backgroundColor: 'black',
@@ -13,11 +12,10 @@ export default StyleSheet.create({
   isGoogle: {
     backgroundColor: '#4285f4',
   },
-  inverted: {},
   buttonTitle: {
     letterSpacing: 1,
     textTransform: 'uppercase',
-    fontSize: 16,
+    fontSize: 18,
     fontFamily: 'OpenSansCondensed-Bold',
     color: 'white',
   },
